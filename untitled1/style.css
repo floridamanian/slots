@@ -1,0 +1,35 @@
+body{
+    background: darkgreen;
+    text-align: center;
+}
+
+
+h1{
+    color: #adfdad;
+    font-size: 65px;
+    font-family: Georgia, serif;
+}
+#bet_label{
+    color: #adfdad;
+    font-size: 20px;
+    font-family: "Arial Black";
+}
+#money_label{
+    color: #adfdad;
+    font-size: 35px;
+    font-family: "Arial Black";
+}
+#money{
+    color: #adfdad;
+    font-size: 35px;
+    font-family: "Arial Black";
+}
+#slots_button{
+    background-color: #000;
+    color: #fff;
+    height: 45px;
+    width: 300px;
+    border-radius: 150px;
+    font-size: 20px;
+    font-weight: bold;
+}
