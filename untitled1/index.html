@@ -2,24 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slots</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Lets Go Gambling!!!</h1>
+<h1 id="head">Lets Go Gambling!!!</h1>
+<img id = "side1" src="reddit gold.gif" height="600" width="600" alt="reddit gold"/>
 <img id= "slot1" src="slot.PNG" height="400" width="200" alt="slot1"/>
 <img id= "slot2" src="slot.PNG" height="400" width="200" alt="slot2"/>
 <img id= "slot3" src="slot.PNG" height="400" width="200" alt="slot3"/>
-<form>
-
-
+<img id = "side2" src="reddit gold.gif" height="600" width="600" alt="reddit gold"/>
+<form id="bet">
     <label id="money_label">Money: </label>
-    <label id="money">100</label>
+    <label id="money"></label>
     <br>
-    <label id="bet_label" for="bet">Bet Amount</label>
-    <input id="bet" type="text">
+    <label id="bet_label" for="bet_input">Bet Amount</label>
+    <input id="bet_input" type="number"><br>
+
 </form><br>
-<button id="slots_button">Roll</button>
+<button id="slots_button" type="submit">Roll</button>
+
 <script src="thecode.js"></script>
 </body>
 </html>
